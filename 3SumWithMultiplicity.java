@@ -1,7 +1,7 @@
 class 3SumWithMultiplicity {
     public int threeSumMulti(int[] arr, int target) {
         long[] c = new long[101];
-        for (int a : A) c[a]++;
+        for (int a : arr) c[a]++;
         long res = 0;
         for (int i = 0; i <= 100; i++)
             for (int j = i; j <= 100; j++) {
